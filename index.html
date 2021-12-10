@@ -1,0 +1,380 @@
+<html>
+<head>
+    <title>TREC CrisisFACTS Homepage</title>
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+
+
+
+</head>
+
+<body id="cfIndexBody">
+
+<div class="uk-container uk-margin-top">
+
+<img data-src="img/CrisisFACTS.png" width="40%" alt="" uk-img>
+
+
+<!-- <div class="uk-alert-warning" style="border-style: solid; border-width: 1px; border-color: #ff6600" uk-alert>
+    <a class="uk-alert-close" uk-close></a>
+    <p><b>Website Under Construction...</b></p>
+</div> -->
+
+</div>
+
+
+
+<div class="uk-container">
+
+<div uk-grid>
+    <div class="uk-width-1-4@m">
+		<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+		<p class="uk-text-bold uk-text-primary">Quick Links</p>
+		<ul class="uk-list uk-list-divider">
+			<li><a href="index.html#secBackground">Background</a></li>
+			<li><a href="index.html#secGoal">Aims</a></li>
+			<li><a href="index.html#secTask">Task Definition</a></li>
+			<li><a href="index.html#secFacts">Defining Facts</a></li>
+			<li><a href="index.html#secLength">Handling Summary Length</a></li>
+			<li><a href="index.html#secDataset">Dataset</a></li>
+			<li><a href="index.html#secParticipate">Participation</a></li>
+			<li><a class="uk-button uk-button-primary" href="index.html">Join Mailing List</a></li>
+			
+		</ul>
+		</div>
+    </div>
+    <div class="uk-grid-item-match uk-width-expand@m">
+	
+	
+		<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+			<p class="uk-card-title">What is CrisisFACTS?</p>
+			<p>CrisisFACTS is an open data challenge that supports research into state-of-the-art temporal summarization technologies 
+			that can extract valuable information from online data sources during (crisis-related) events. At its core, CrisisFACTS provides a dataset 
+			that enables researchers and practitioners train and evaluate systems for this task, removing the need for individuals to
+			perform the expensive process of data collection and labelling. Moreover, it acts as a central hub by which participants 
+			can compare approaches to this task in a standardised environment, aiding research in this domain.</p>
+		</div>
+	
+        <div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">Temporal Summarization</p>
+					<p>Temporal Summarization (TS) technologies are a subset of 
+					the wider summarization field that are concerned with 
+					how to produce concise timelines for an event of interest.
+					They differ from traditional summarization in that they
+					focus more about ordering information by time and
+					producing a series of short updates rather than producing a longer
+					narrative.</p>
+				</div>
+			</div>
+            <div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">Use-Case: Crisis Factoid Timelines</p>
+					<p>Temporal summarization can be applied in many areas,
+					but to facilitate effective evaluation we need to select a use-case
+					to target, i.e. who are our summaries for and what do they want?
+					CrisisFACTS targets summarization for emergency responders who want
+					a concise, accurate and up-to-date summary of a crisis event
+					that can be used to inform first responders, decison makers and communication teams.
+					</p>
+				</div>
+			</div>
+        </div>
+	</div>
+</div>
+
+<div uk-grid>
+	
+	<div class="uk-width-1-1@m">
+		<img id="secBackground" class="uk-margin-top" data-src="img/Background.png" width="100%" alt="" uk-img>
+		
+		<div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">Motivation</p>
+					<p>With the wide-spread access to and use of internet-enabled devices, live online 
+					reporting and discussion of events of interest has become commonplace across 
+					multiple platforms, from traditional to social media. This is a valuable source of
+					real-time information about an event that can be used by response services
+					to better understand what is happening on the ground during a crisis. Indeed, 
+					good situational awareness is critical to enable effective decision making and
+					communication during an emergency.
+					</p>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">The Challenge</p>
+					<p>However, making effective use of this information is no easy task. Due to the
+					high volumes and rate at which new online content is published, manual analysis is
+					often simply impractical. Moreover, content is published in a wide variety of 
+					platforms with their own formats and norms, each with their own strengths and weaknesses.
+					Hence, there is a need for automatic systems that can quickly analyse all of these
+					infromation streams and extract just the key facts for the user.
+					</p>
+				</div>
+			</div>
+        </div>
+		
+		<img id="secGoal" class="uk-margin-top" data-src="img/Goal.png" width="100%" alt="" uk-img>
+		
+		<div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">Crisis Factoid Timelines</p>
+					<p>Before discussing the task, its critical that we understand what our end-goal is.
+					At its core, we are trying to take a large, highly-redundant and noisy set of text 
+					documents published over time during an event, extract only the key, unique and useful information,
+					and present that information in a time-ordered, concise, self-contained way, whilst
+					also providing supporting evidence for the information we serve. As we care about the
+					ordering of information, it follows that our output should be items that can appear in
+					a timeline. We should avoid reporting the same thing multiple times, and each item should
+					be understandable in isolation. To tackle the supporing evidence problem, we should link
+					to our sources. We also might want to categorize our items and present only a sub-set of
+					them depending on the target audience and their responsibilities. Given these requiements,
+					we might envisage producing timelines for an event like the one across:
+					</p>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<img class="uk-margin-top" data-src="img/Example.png" width="100%" alt="" uk-img>
+				</div>
+			</div>
+        </div>
+		
+		
+		<img id="secTask" class="uk-margin-top" data-src="img/TheTask.png" width="100%" alt="" uk-img>
+		
+		
+		<div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-1@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+				<p class="uk-text-bold uk-text-primary">Task Definition</p>
+					<p>As a data challenge, we define a task that participants can develop solutions for, which is aligned with the end-goal discussed above. At a high-level,
+					the CrisisFACTS task is to take in a <b>series of online content streams</b> for a crisis event, then at a set point in time (summary request time), <b>produce a scored list 
+					of timeline items ('facts') based on content published up-to that point</b>. This list should be non-redundant, i.e. it should include only a single 'exemplar' item for each 
+					unique piece of information you found. This list of timeline items can then be passed to a report generation system that produces the 
+					final event summary for an emergency responder, where higher-scored items are more likely to be included (more on this when we discuss summary length). 
+					</p>
+				</div>
+				<div class="uk-margin-top">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large " style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<img class="uk-margin-top" data-src="img/HighLevel.png" width="100%" alt="" uk-img>
+				</div>
+				</div>
+			</div>
+        </div>
+		
+		<img id="secFacts" class="uk-margin-top" data-src="img/Facts.png" width="100%" alt="" uk-img>
+		
+		<div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">What is an Output Timeline Item/Fact?</p>
+					<p>A timeline item or 'fact' must be comprised of four components, with one optional component depending on the type of your system:</p>
+					<ul>
+						<li><b>Fact Text</b>: A short single-sentence statement that conveys an important, atomic and self-contained piece of information about the event.</li>
+						<li><b>Timestamp</b>: A date and time indicating the earliest point in time that your system detected the fact.</li>
+						<li><b>Importance</b>: A numerical score between 0 and 1 that indicates how important your system thinks it is for this fact to be included in the final summary.</li>
+						<li><b>Sources</b>: A list of stream item identifiers (more in this in datasets) that your system beliveve support the fact.</li>
+						<li><b>Stream Item Identifier (Optional)</b>: If your system is extractive in nature, i.e. your fact texts are direct copies 
+						of text found in the input streams, then the identifier of the input item that the text comes from.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">Extractive vs. Abstractive Facts</p>
+					<p>It is of note that there are two broad strategies one might take when extracting facts, namely extractive or abstractive.
+					The dataset that we provide participants is already divided into 'stream items', e.g. sentences from a news article, or the
+					text of a tweet.</p>
+					<p><b>Extractive approaches</b> may simply consider each of these stream items as candidate facts, and as such treat the
+					broader CrisisFACTS task as a stream item filtering and scoring problem, where the goal is to cluster the stream items based
+					on the information they contain, select an exemplar from each cluster, and then score each exemplar/cluster by its percieved
+					importance.</p>
+					<p><b>Abstractive approaches</b> on the other hand aim to generate new custom fact text, using the stream items as input. 
+					An abtractive approach might still cluster the stream items based on the information contained, but instead of selecting an
+					exemplar from the cluster, it would generate a new piece of fact text using the cluster as input, theoretically producing a
+					more concise and targeted fact than extractive approaches.
+					</p>
+				</div>
+			</div>
+        </div>
+		
+		<img id="secLength" class="uk-margin-top" data-src="img/SummaryLength.png" width="100%" alt="" uk-img>
+		
+		<div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">The Problem with Variable Length Summaries</p>
+					<p>A core question in any summarization domain is 'how long is a good summary?'. How we answer this question is key for two reasons: 
+					1) length is intrinsicly linked to the quality of a summary - we want as short a summary as possible without missing key information;
+					and 2) from an evaluation perspective, trying to fairly compare summaries of different lengths is a very difficult problem for which 
+					there is no good solution. Most works in summarization simplify by specifying a static length limit (e.g. in words), side-stepping this problem. However, this
+					is not an option when summarizing events that last for different lengths of time - as the amount of information we need to capture in
+					our summary will similarly vary, nessitating variable numbers of items in our timelines. 
+					</p>
+				</div>
+			</div>
+			<div class="uk-width-1-2@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">How does CrisisFACTS Tackle Variable Length Summaries?</p>
+					<p>The way that CrisisFACTS works around this challenge is that we ask participants to provide as many unique facts as they can find and 
+					think are important as a ranking, i.e. participant system output is variable length. However, at evaluation time, we will convert these
+					variable length rankings into fixed-length timelines/summaries, enabling a like-for-like comparison across participants. More precicely,
+					at evaluation time based on our ground truth data that we collect manually, we specify a reasonable summary length on a per-event basis.
+					What this means is that the more valuable information our assessors find for an event, the longer the target summary length for that event
+					will be, and partipants will not know that prior to submission and hence cannot optimise for it.
+					</p>
+				</div>
+			</div>
+        </div>
+		
+		
+		<img id="secDataset" class="uk-margin-top" data-src="img/Dataset.png" width="100%" alt="" uk-img>
+		
+		<div class="uk-margin-top" uk-grid>
+            <div class="uk-width-1-1@m">
+				<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+				<p class="uk-text-bold uk-text-primary">Data Streams</p>
+					<p>One of the aims of CrisisFACTS is to investigate how information during crises is represented across different online platforms and mediums. 
+					To this end, we provide a composite dataset comprised of text streams of three types: News Articles, Social Media, and Twitter. For each stream,
+					we divide it into stream items, where each stream item contains a short piece of text and a publishing timestamp and a unique stream item identifier.
+					</p>
+				</div>
+				<div class="uk-margin-top" uk-grid>
+				<div class="uk-width-1-3@m">
+					<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+						<div class="uk-card-header">
+							<div class="uk-grid-small uk-flex-middle" uk-grid>
+								<div class="uk-width-auto">
+									<img class="uk-border-circle" width="70" height="70" src="http://www.dcs.gla.ac.uk/~richardm/CrisisFACTS/img/Newspaper-icon.png">
+								</div>
+								<div class="uk-width-expand">
+									<h3 class="uk-card-title uk-margin-remove-bottom">News Articles</h3>
+									<p class="uk-text-meta uk-margin-remove-top">Traditional Media</time></p>
+								</div>
+							</div>
+						</div>
+						<p>For each news article we collect during an event, we perform sentence segmentation on the article contents, where each sentence is treated as a single
+						item. The publication timestamp is the publication date of the surrounding article.
+						</p>
+					</div>
+				</div>
+				<div class="uk-width-1-3@m">
+					<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+						<div class="uk-card-header">
+							<div class="uk-grid-small uk-flex-middle" uk-grid>
+								<div class="uk-width-auto">
+									<img class="uk-border-circle" width="70" height="70" src="http://www.dcs.gla.ac.uk/~richardm/CrisisFACTS/img/twittericon.png">
+								</div>
+								<div class="uk-width-expand">
+									<h3 class="uk-card-title uk-margin-remove-bottom">Twitter</h3>
+									<p class="uk-text-meta uk-margin-remove-top">Social Media</time></p>
+								</div>
+							</div>
+						</div>
+						<p>For Twitter, each tweet acts as a single stream item. The text is the text of the tweet and the publication date is the publication date of the tweet.
+						</p>
+					</div>
+				</div>
+				<div class="uk-width-1-3@m">
+					<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+						<div class="uk-card-header">
+							<div class="uk-grid-small uk-flex-middle" uk-grid>
+								<div class="uk-width-auto">
+									<img class="uk-border-circle" width="70" height="70" src="http://www.dcs.gla.ac.uk/~richardm/CrisisFACTS/img/reddit.png">
+								</div>
+								<div class="uk-width-expand">
+									<h3 class="uk-card-title uk-margin-remove-bottom">Reddit</h3>
+									<p class="uk-text-meta uk-margin-remove-top">Forums</time></p>
+								</div>
+							</div>
+						</div>
+						<p>As Reddit is a type of forum, for a thread that is relevant to the event, we take all posts in that thread and perform sentence segmentation upon them
+						to get our stream items, one sentence per item. The  publication timestamp is the publication date of the containing post.
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+        </div>
+		
+		<img id="secParticipate" class="uk-margin-top" data-src="img/Participate.png" width="100%" alt="" uk-img>
+		
+		<div class="uk-margin-top" uk-grid>
+				<div class="uk-width-2-5@m">
+					<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+						<p class="uk-text-bold uk-text-primary">Text Retrieval Conference (TREC)</p>
+						<p>CrisisFACTS is organised as part of the Text Retrieval Conference, a combined conference and evaluation campaign that
+						aims to encourage research into information retrieval technologies from large test
+						collections. It is co-sponsored by the National Institute of Standards and Technology
+						(NIST) Information Technology Laboratory's (ITL) Retrieval Group of the Information
+						Access Division (IAD), and has run annually for 25+ years.
+						</p>
+					</div>
+				</div>
+				<div class="uk-width-3-5@m">
+					<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+						<p class="uk-text-bold uk-text-primary">TREC Tracks</p>
+						<p>TREC consists of a set tracks, areas of focus in which particular information access tasks are 
+						defined. CrisisFACTS focus is information summarization. The tracks serve several purposes. First, tracks act as incubators for new research 
+						areas: the first running of a track often defines what the problem really is, and a track 
+						creates the necessary infrastructure (test collections, evaluation methodology, etc.) to 
+						support research on its task. The tracks also demonstrate the robustness of core retrieval 
+						technology in that the same techniques are frequently appropriate for a variety of tasks. 
+						Finally, they make TREC attractive to a broader community by providing tasks that match the research interests of more groups. 
+						</p>
+					</div>
+				</div>
+			<div class="uk-margin-top" uk-grid>
+				<div class="uk-width-1-1@m">
+					<div class="uk-card uk-card-small uk-card-body uk-width-1-1@m uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+						<p class="uk-text-bold uk-text-primary">Participating in CrisisFACTS 2022</p>
+						<p>CrisisFACTS will be run as part of TREC 2022. Currently the organisers are still setting up the infrastructure for
+						running the track, collecting data and writting the participation guidelines. If you would like to know when the track
+						opens for participation, then your should join the following <a href="index.html">Mailing List</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		<div class="uk-margin-top" uk-grid></div>
+		
+		
+		<div class="uk-margin-top uk-margin-bottom" uk-grid>
+			<div class="uk-width-1-1@m">
+				<div class="uk-card uk-card-small uk-card-body uk-border-rounded uk-box-shadow-large" style="border-style: solid; border-width: 1px; border-color: #3aa2de">
+					<p class="uk-text-bold uk-text-primary">Supported By</p>
+					<div class="uk-margin-top" uk-grid>
+						<div class="uk-width-1-5@m">
+							<img data-src="img/nistident_fleft_150ppi.jpg" width="100%" alt="" uk-img>
+						</div>
+						<div class="uk-width-2-5@m">
+							<img data-src="img/CompScience_colour_transparent_small.png" width="100%" alt="" uk-img>
+						</div>
+						<div class="uk-width-1-5@m">
+							<img data-src="img/njit.png" width="100%" alt="" uk-img>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+    </div>
+</div>
+
+
+
+</div>
+
+</body>
+
+</html>
