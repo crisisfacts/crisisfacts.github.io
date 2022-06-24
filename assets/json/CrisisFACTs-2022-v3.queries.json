@@ -1,0 +1,2489 @@
+[
+	{
+		"eventID": "CrisisFACTS-001",
+		"queries": [
+            {
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplies been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+            },
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q001",
+                "indicativeTerms": "acres size",
+                "query": "What area has the wildfire burned",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q002",
+                "indicativeTerms": "wind speed",
+                "query": "Where are wind speeds expected to be high",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q003",
+                "indicativeTerms": "helicopters",
+                "query": "Are helicopters available",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q004",
+                "indicativeTerms": "homes destroyed damaged",
+                "query": "Where have homes been damaged or destroyed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q005",
+                "indicativeTerms": "acres per hour",
+                "query": "How quickly is the fire spreading",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q006",
+                "indicativeTerms": "containment",
+                "query": "What is the fire containment level",
+                "trecisCategoryMapping": "Report-Factoid"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-002",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q001",
+                "indicativeTerms": "acres size",
+                "query": "What area has the wildfire burned",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q002",
+                "indicativeTerms": "wind speed",
+                "query": "Where are wind speeds expected to be high",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q003",
+                "indicativeTerms": "helicopters",
+                "query": "Are helicopters available",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q004",
+                "indicativeTerms": "homes destroyed damaged",
+                "query": "Where have homes been damaged or destroyed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q005",
+                "indicativeTerms": "acres per hour",
+                "query": "How quickly is the fire spreading",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q006",
+                "indicativeTerms": "containment",
+                "query": "What is the fire containment level",
+                "trecisCategoryMapping": "Report-Factoid"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-003",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q001",
+                "indicativeTerms": "acres size",
+                "query": "What area has the wildfire burned",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q002",
+                "indicativeTerms": "wind speed",
+                "query": "Where are wind speeds expected to be high",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q003",
+                "indicativeTerms": "helicopters",
+                "query": "Are helicopters available",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q004",
+                "indicativeTerms": "homes destroyed damaged",
+                "query": "Where have homes been damaged or destroyed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q005",
+                "indicativeTerms": "acres per hour",
+                "query": "How quickly is the fire spreading",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q006",
+                "indicativeTerms": "containment",
+                "query": "What is the fire containment level",
+                "trecisCategoryMapping": "Report-Factoid"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-004",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q001",
+                "indicativeTerms": "category",
+                "query": "What is the hurricane category",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q002",
+                "indicativeTerms": "pressure",
+                "query": "What is the hurricane pressure",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q003",
+                "indicativeTerms": "forecast north south east west",
+                "query": "What direction is the hurricane moving",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q004",
+                "indicativeTerms": "landfall",
+                "query": "Where has the hurricane made landfall",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q06",
+                "indicativeTerms": "speed",
+                "query": "How fast is the hurricane travelling",
+                "trecisCategoryMapping": "Report-Weather"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-005",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Flood-q001",
+                "indicativeTerms": "flood warning",
+                "query": "What flood warnings are active",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-Flood-q002",
+                "indicativeTerms": "river",
+                "query": "What rivers have overflowed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-006",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q001",
+                "indicativeTerms": "acres size",
+                "query": "What area has the wildfire burned",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q002",
+                "indicativeTerms": "wind speed",
+                "query": "Where are wind speeds expected to be high",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q003",
+                "indicativeTerms": "helicopters",
+                "query": "Are helicopters available",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q004",
+                "indicativeTerms": "homes destroyed damaged",
+                "query": "Where have homes been damaged or destroyed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q005",
+                "indicativeTerms": "acres per hour",
+                "query": "How quickly is the fire spreading",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Wildfire-q006",
+                "indicativeTerms": "containment",
+                "query": "What is the fire containment level",
+                "trecisCategoryMapping": "Report-Factoid"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-007",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q001",
+                "indicativeTerms": "category",
+                "query": "What is the hurricane category",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q002",
+                "indicativeTerms": "pressure",
+                "query": "What is the hurricane pressure",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q003",
+                "indicativeTerms": "forecast north south east west",
+                "query": "What direction is the hurricane moving",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q004",
+                "indicativeTerms": "landfall",
+                "query": "Where has the hurricane made landfall",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q06",
+                "indicativeTerms": "speed",
+                "query": "How fast is the hurricane travelling",
+                "trecisCategoryMapping": "Report-Weather"
+			}
+		]
+	},{
+		"eventID": "CrisisFACTS-008",
+		"queries": [
+			{
+                "queryID": "CrisisFACTS-General-q001",
+                "indicativeTerms": "airport closed",
+                "query": "Have airports closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q002",
+                "indicativeTerms": "rail closed",
+                "query": "Have railways closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q003",
+                "indicativeTerms": "water supply",
+                "query": "Have water supplied been contaminated",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q004",
+                "indicativeTerms": "firefighters on-duty",
+                "query": "How many firefighters are active",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q005",
+                "indicativeTerms": "evacuated",
+                "query": "How many people are affected",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q006",
+                "indicativeTerms": "shelters",
+                "query": "How many people are in shelters",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q007",
+                "indicativeTerms": "missing",
+                "query": "How many people are missing",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q008",
+                "indicativeTerms": "trapped",
+                "query": "How many people are trapped",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q009",
+                "indicativeTerms": "injury injured",
+                "query": "How many people have been injured",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q010",
+                "indicativeTerms": "killed dead",
+                "query": "How many people have been killed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q011",
+                "indicativeTerms": "damage cost",
+                "query": "How much monetary damage has been caused",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q012",
+                "indicativeTerms": "rain rainfall",
+                "query": "How much rain-fall as occured",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q013",
+                "indicativeTerms": "wind speed mph",
+                "query": "What are the wind speeds",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q014",
+                "indicativeTerms": "evacuation",
+                "query": "What areas are being evacuated",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q015",
+                "indicativeTerms": "forecast cone path",
+                "query": "What areas are predicted to be impacted",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q016",
+                "indicativeTerms": "electricity power",
+                "query": "What areas are without power",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q017",
+                "indicativeTerms": "Are there goods needing delivered",
+                "query": "What at-risk groups are being impacted",
+                "trecisCategoryMapping": "Are there goods needing delivered"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q018",
+                "indicativeTerms": "smoke",
+                "query": "What barriers are hindering response efforts",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q019",
+                "indicativeTerms": "bridges",
+                "query": "What bridges have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q020",
+                "indicativeTerms": "curfew",
+                "query": "What curfews are in place",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q021",
+                "indicativeTerms": "food water transport",
+                "query": "Are there goods needing delivered",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q022",
+                "indicativeTerms": "canceled",
+                "query": "What events have been canceled",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q023",
+                "indicativeTerms": "food water sandbags",
+                "query": "What goods are being requested",
+                "trecisCategoryMapping": "Request-GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q024",
+                "indicativeTerms": "various",
+                "query": "What preparations are being made",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q025",
+                "indicativeTerms": "state of emergency",
+                "query": "What regions have announced a state of emergency",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q026",
+                "indicativeTerms": "tree block road closures",
+                "query": "What roads are blocked / closed",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q027",
+                "indicativeTerms": "road re-opened",
+                "query": "What roads have been re-opened",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q028",
+                "indicativeTerms": "closed",
+                "query": "What services have been closed",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q029",
+                "indicativeTerms": "shelters",
+                "query": "What shelters are open",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q030",
+                "indicativeTerms": "SCEMD icrc",
+                "query": "What third-party support groups are active",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q031",
+                "indicativeTerms": "traffic",
+                "query": "What traffic diversions are in effect",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q032",
+                "indicativeTerms": "warning",
+                "query": "What warnings are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q033",
+                "indicativeTerms": "watch",
+                "query": "What watches are currently in effect",
+                "trecisCategoryMapping": "Report-Official"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q034",
+                "indicativeTerms": "service teams emergency services",
+                "query": "Where are emergency services deployed",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q035",
+                "indicativeTerms": "ambulance medics",
+                "query": "Where are emergency services needed",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q036",
+                "indicativeTerms": "evacuation center shelters",
+                "query": "Where are evacuation centres",
+                "trecisCategoryMapping": "Report-ServiceAvailable"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q037",
+                "indicativeTerms": "evacuation evacs",
+                "query": "Where are evacuations needed",
+                "trecisCategoryMapping": "CallToAction-MovePeople"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q038",
+                "indicativeTerms": "fire fighters engines",
+                "query": "Where are firefighters needed",
+                "trecisCategoryMapping": "Request=GoodsServices"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q039",
+                "indicativeTerms": "rescue",
+                "query": "Where are people needing rescued",
+                "trecisCategoryMapping": "Request-SearchAndRescue"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q040",
+                "indicativeTerms": "PIO public information officer",
+                "query": "Where are public officials located",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q041",
+                "indicativeTerms": "recovery effort",
+                "query": "Where are recovery efforts taking place",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q042",
+                "indicativeTerms": "building damage",
+                "query": "Where has building or infrastructure damage occurred",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q043",
+                "indicativeTerms": "flooding",
+                "query": "Where has flooding occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q044",
+                "indicativeTerms": "volunteer",
+                "query": "Where are volunteers being requested",
+                "trecisCategoryMapping": "CallToAction-Volunteer"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q045",
+                "indicativeTerms": "fuel hazard waste infectious chemical",
+                "query": "What hazardous chemicals or materials are involved",
+                "trecisCategoryMapping": "None"
+			},
+            {
+                "queryID": "CrisisFACTS-General-q046",
+                "indicativeTerms": "road sinkhole",
+                "query": "Where has road damage occured",
+                "trecisCategoryMapping": "Report-EmergingThreats"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q001",
+                "indicativeTerms": "category",
+                "query": "What is the hurricane category",
+                "trecisCategoryMapping": "Report-Factoid"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q002",
+                "indicativeTerms": "pressure",
+                "query": "What is the hurricane pressure",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q003",
+                "indicativeTerms": "forecast north south east west",
+                "query": "What direction is the hurricane moving",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q004",
+                "indicativeTerms": "landfall",
+                "query": "Where has the hurricane made landfall",
+                "trecisCategoryMapping": "Report-Weather"
+			},
+            {
+                "queryID": "CrisisFACTS-Hurricane-q06",
+                "indicativeTerms": "speed",
+                "query": "How fast is the hurricane travelling",
+                "trecisCategoryMapping": "Report-Weather"
+			}
+		]
+	}
+]
