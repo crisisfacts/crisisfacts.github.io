@@ -31,36 +31,36 @@ div .mailing-list-banner {
   @extend .banner;
   color: #AB7003;
   border-color: #AB7003;
-  background: #FEF7EC;
+  background: #ff99ff;
 }
 
 div .mailing-list-title {
   @extend .banner-title;
-  color: #8c5d05;
+  color: #ff33cc;
 }
 
 .mailing-list-announcement-old {
   @extend .banner-items;
-  color: #ad9b7b;
+  color: #660033;
   font-size: .9em;
 
   a {
-    color: #ad9b7b;
+    color: #660033;
     text-decoration: underline;
   }
 }
 
 .mailing-list-announcement-new {
   @extend .banner-items;
-  color: #8c5d05;
+  color: #660066;
 
   a {
-    color: #8c5d05;
+    color: #660066;
     text-decoration: underline;
   }
 
   a:hover {
-    color: #c8730a;
+    color: #cc3399;
   }
 }
 
