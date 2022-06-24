@@ -31,7 +31,7 @@ div .mailing-list-banner {
   @extend .banner;
   color: #AB7003;
   border-color: #AB7003;
-  background: #FEF7EC;
+  background: #ff99ff;
 }
 
 div .mailing-list-title {
@@ -41,21 +41,21 @@ div .mailing-list-title {
 
 .mailing-list-announcement-old {
   @extend .banner-items;
-  color: #cc3399;
+  color: #660033;
   font-size: .9em;
 
   a {
-    color: #cc3399;
+    color: #660033;
     text-decoration: underline;
   }
 }
 
 .mailing-list-announcement-new {
   @extend .banner-items;
-  color: #ff33cc;
+  color: #660066;
 
   a {
-    color: #ff33cc;
+    color: #660066;
     text-decoration: underline;
   }
 
