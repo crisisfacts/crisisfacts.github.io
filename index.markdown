@@ -313,7 +313,7 @@ We provide these data streams to participants to use as the source of content fo
 
 ## Submissions
 
-Runs will be submitted through the NIST submission system at [trec.nist.gov](trec.nist.gov). Runs that do not pass validation will be rejected outright. Submitted runs will be asked to specify the following:
+Runs will be submitted through the NIST submission system at [trec.nist.gov](http://trec.nist.gov). Runs that do not pass validation will be rejected outright. Submitted runs will be asked to specify the following:
 
 - Whether they are (a) manual or automatic, 
 - Whether they use (b) extant TREC-IS labels for Twitter data, and 
