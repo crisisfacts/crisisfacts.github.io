@@ -14,6 +14,7 @@ layout: default
 ## Announcements
 {: .mailing-list-title}
 
+- __2022-07-18__: Baseline system, based on PyTerrier, and scripts for verifying run files are now available on the [CrisisFACTS Utilities GitHub repo](https://github.com/crisisfacts/utilities).
 - __2022-06-24__: We have updated the CrisisFACTS website.
 - __2022-06-18__: We have released utilities for downloading the track data via `ir_datasets`, available on [GitHub](https://github.com/crisisfacts/utilities).
 - __2022-06-17__: _CrisisFACTS task guidelines have been released!_ You can check out the <a href='/assets/pdf/guidelines.v1.0.pdf'>guidelines here</a>, ask questions on <a href='https://groups.google.com/g/trec-is'>our mailing list</a>, or join the `#crisis-facts-2022` channel on the <a href="https://trectalk.slack.com/">TREC Slack channel</a>.
