@@ -15,6 +15,7 @@ layout: default
 {: .mailing-list-title}
 
 - __2022-09-23__: The [TREC submission page](https://ir.nist.gov/trecsubmit/crisis.html) for CrisisFACTS is now open!
+- __2022-09-09__: Fixed [a bug](https://github.com/crisisfacts/utilities/commit/d95e1a2eb929601ee7339fde3022be23b82d38aa) in the baseline output format to make it consistent with guidelines.
 - __2022-07-18__: Baseline system, based on PyTerrier, and scripts for verifying run files are now available on the [CrisisFACTS Utilities GitHub repo](https://github.com/crisisfacts/utilities).
 - __2022-06-24__: We have updated the CrisisFACTS website.
 - __2022-06-18__: We have released utilities for downloading the track data via `ir_datasets`, available on [GitHub](https://github.com/crisisfacts/utilities).
@@ -225,7 +226,7 @@ Each fact should contain the following:
 Examples of system output are as follows:
 
 ```json
-[{
+{
     "requestID": "CrisisFACTS-001-r3",
     "factText": "Increased threat of wind damage in the San Diego area.",
     "unixTimestamp":1512604876,
@@ -235,9 +236,8 @@ Examples of system output are as follows:
     ],
     "streamID": null,
     "informationNeeds": ["CrisisFACTS-General-q015"]
-}, 
+}
 ...
-]
 ```
 
 Fig 5. Example System Output with Abstractive Facts. The `streamID` field is empty as this fact may not appear in the dataset verbatim. It is, however, supported by one Twitter message.
@@ -246,7 +246,7 @@ Fig 5. Example System Output with Abstractive Facts. The `streamID` field is emp
 #### Example Extractive Output
 
 ```json
-[{
+{
     "requestID": "CrisisFACTS-001-r3",
     "factText": "Big increase in the wind plus drop in humidity tonight into Thursday for San Diego County #SanDiegoWx https://t.co/1pVOZAhsJH",
     "unixTimestamp":1512604876,
@@ -256,9 +256,8 @@ Fig 5. Example System Output with Abstractive Facts. The `streamID` field is emp
     ],
     "streamID": "CrisisFACTS-001-Twitter-14023-0",
     "informationNeeds": ["CrisisFACTS-General-q015"]
-}, 
+}
 ...
-]
 ```
 Fig 6. Example System Output with Extractive Facts. The `streamID` field is populated with the Twitter document from which this text was taken.
 {: style="text-align:center"}
