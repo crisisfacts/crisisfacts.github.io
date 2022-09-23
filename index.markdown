@@ -14,6 +14,7 @@ layout: default
 ## Announcements
 {: .mailing-list-title}
 
+- __2022-09-23__: The [TREC submission page](https://ir.nist.gov/trecsubmit/crisis.html) for CrisisFACTS is now open!
 - __2022-07-18__: Baseline system, based on PyTerrier, and scripts for verifying run files are now available on the [CrisisFACTS Utilities GitHub repo](https://github.com/crisisfacts/utilities).
 - __2022-06-24__: We have updated the CrisisFACTS website.
 - __2022-06-18__: We have released utilities for downloading the track data via `ir_datasets`, available on [GitHub](https://github.com/crisisfacts/utilities).
