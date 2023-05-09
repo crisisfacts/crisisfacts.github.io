@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# 2022 TREC CrisisFACTS Track
+# 2023 TREC CrisisFACTS Track
 
 
 {::options parse_block_html="true" /}
@@ -13,13 +13,10 @@ layout: default
 
 ## Announcements
 {: .mailing-list-title}
+- __2023-05-10__: _CrisisFACTS task guidelines have been released!_ You can check out the guidelines on this page, ask questions on <a href='https://groups.google.com/g/trec-is'>our mailing list</a>, or join the `#crisis-facts-2023` channel on the <a href="https://trectalk.slack.com/">TREC Slack channel</a>.
+- __2023-03-10__: _CrisisFACTS 2022 overview paper accepted to ISCRAM 2023!_ The overview paper for CrisisFACTS 2022 has been accepted for [ISCRAM 2023](https://www.unomaha.edu/college-of-information-science-and-technology/iscram2023/index.php). A pre-print of this paper is available [here](/assets/pdf/crisisfacts2022.iscram2023.pdf)
+- __2023-01-06__: _CrisisFACTS 2022 Facts and automatic evaluation are available!_ You can find the gold-standard facts from CrisisFACTS 2022 <a href="https://github.com/crisisfacts/utilities/blob/main/03-Evaluation/01-AutoEvaluation/CrisisFACTs-2022.facts.json">here</a> and the 2022 automatic evaluation in <a href="https://github.com/crisisfacts/utilities/tree/main/03-Evaluation/01-AutoEvaluation">GitHub</a>.
 
-- __2022-09-23__: The [TREC submission page](https://ir.nist.gov/trecsubmit/crisis.html) for CrisisFACTS is now open!
-- __2022-09-09__: Fixed [a bug](https://github.com/crisisfacts/utilities/commit/d95e1a2eb929601ee7339fde3022be23b82d38aa) in the baseline output format to make it consistent with guidelines.
-- __2022-07-18__: Baseline system, based on PyTerrier, and scripts for verifying run files are now available on the [CrisisFACTS Utilities GitHub repo](https://github.com/crisisfacts/utilities).
-- __2022-06-24__: We have updated the CrisisFACTS website.
-- __2022-06-18__: We have released utilities for downloading the track data via `ir_datasets`, available on [GitHub](https://github.com/crisisfacts/utilities).
-- __2022-06-17__: _CrisisFACTS task guidelines have been released!_ You can check out the <a href='/assets/pdf/guidelines.v1.0.pdf'>guidelines here</a>, ask questions on <a href='https://groups.google.com/g/trec-is'>our mailing list</a>, or join the `#crisis-facts-2022` channel on the <a href="https://trectalk.slack.com/">TREC Slack channel</a>.
 {: .mailing-list-announcement-new}
 
 </div>
@@ -37,14 +34,14 @@ Participation in CrisisFACTS and access to the track's datasets (i.e., data stre
 
 Tracking developments in topics and events has been studied at TREC and other venues for several decades (e.g., from [DARPA’s early Topic-Detection and Tracking](https://ciir.cs.umass.edu/tdt) initiative to the more recent [Temporal Summarization](https://trec.nist.gov/pubs/trec24/papers/Overview-TS.pdf) and [Real-Time Summarization](http://trecrts.github.io) TREC tracks). Today's high-velocity, multi-stream information ecosystem, however, leads to missed critical information or new developments, especially during crises. While modern search engines are adept at providing users with search results relevant to an event, they are ill-suited to multi-stream fact-finding and summarization needs. The CrisisFACTS track aims to foster research that closes these gaps. 
 
-CrisisFACTS is making available multi-stream datasets from several disasters, covering __Twitter__, __Reddit__, __Facebook__, and __online news sources__. We supplement these datasets with queries defining the information needs of disaster-response stakeholders (extracted from [FEMA ICS209 forms](/assets/pdf/ics209.pdf)). Participants’ systems should integrate these streams into temporally ordered lists of important facts, which we can aggregate into summaries for disaster response personnel. 
+CrisisFACTS is making available multi-stream datasets from several disasters, covering __Twitter__, __Reddit__, __Facebook__, and __online news sources__ gathered from the [NELA Toolkit](https://github.com/BenjaminDHorne/The-NELA-Toolkit). We supplement these datasets with queries defining the information needs of disaster-response stakeholders (extracted from [FEMA ICS 209 forms](/assets/pdf/ics209.pdf)). Participants’ systems should integrate these streams into daily lists of facts, which we can aggregate into summaries for disaster response personnel. 
 
 -------
 
 #### Jump to:
 
 - [Overview](#overview)
-- [2022 Task Overview](#tasks)
+- [2023 Task Overview](#tasks)
 - [Datasets](#datasets)
 - [Event List](#events)
 - [Submissions](#submissions)
@@ -59,42 +56,39 @@ CrisisFACTS is making available multi-stream datasets from several disasters, co
 
 This track's core information need is: 
 
-    What critical new developments have occurred 
+    What critical new developments have occurred *today* 
     that I need to know about?
 
 Many pieces of information posted during a disaster are not essential for responders or disaster-response managers. To make these needs explicit, we have made a list of general and disaster-specific queries/"user profiles", available [here](/assets/json/CrisisFACTs-2022-v3.queries.json). These queries capture a responder might consider important, such as the following:
 
-- Approaching threats to life, property, infrastructure, response operations, etc.
+- Emerging/approaching threats
 - Changes to affected areas
 - Changes to damage assessments
-- Critical-resource needs, such as food, water or medicine
+- Critical needs, such as food, water or medicine
 - Damage to key infrastructure, evacuations, or emerging threats
-- Incident command transitions (setup or transfer of command and control capabilities)
 - Progress made and accomplishments by responders
-- Reports and statistics regarding civilians and responders, such as casualties, those in temporary shelters, needing immunizations, or those missing
-- Risks from hazardous materials, such as chemicals, fuels, infectious agents or radiation
-- Restriction to the use or availability of resources
-- Weather concerns, e.g. high wind, temperatures, humidity, floods, or watches/warnings
+- Statistics on casualties or numbers missing
+- Risks from hazardous materials
+- Restriction on or availability of resources
+- Weather concerns
 
-Emergency response staff typically want to receive a summary of this information at particular points during the emergency. Such a summary might be generated at the start of a new shift so the next group of team members can be informed about new developments. Alternatively, local government or media agencies might request updates on the emergency. 
-
-Currently, these information needs are fulfilled via manual summarization, e.g. by filling an incident report such as the [FEMA ICS209 forms](/assets/pdf/ics209.pdf).
+Responders typically want to receive a summary of this information at regular intervals during an emergency event. Stakeholders current fulfill these information needs via manual summarization, e.g., by filling daily incident reports such as the [FEMA ICS 209 forms](/assets/pdf/ics209.pdf).
 
 -------
 
-## 2022 Task -- Fact Extraction for Downstream Summarization {#tasks}
+## 2023 Tasks -- Fact Extraction for Downstream Summarization {#tasks}
 
-The 2022 track will have a single fact-extraction task, where systems consume a multi-stream dataset for a given disaster, broken into disaster-day pairs. From this stream, the system should produce a minimally redundant list of atomic facts, with importance scores denoting how critical the fact is for responders. CrisisFACTS organizers will aggregate these facts into daily summaries for these disasters, along the following lines:
+As in 2022, the main 2023 task focuses on fact extraction, where systems consume a multi-stream dataset for a given disaster, broken into disaster-day pairs. From this stream, the system should produce a minimally redundant list of atomic facts, with importance scores denoting how critical the fact is for responders. CrisisFACTS organizers will aggregate these facts into daily summaries for these disasters, along the following lines:
 
 ![Example](/assets/img/Example.png)
-![ConOps](/assets/img/HighLevel.png)
-<p style="text-align:center">Fig 0. ConOps/High-Level System Overview</p>
+![ConOps](/assets/img/CrisisFACTSDiagram.png)
+<p style="text-align:center">Fig 1. ConOps/High-Level System Overview</p>
 
 ### System Input
 
 Input to participant systems include:
 
-- __Event Definitions__: We provide content for a set of eight crises, including wildfires, hurricanes and flood events. The following is an example event definition:
+- __Event Definitions__: We provide content for multiple crises, including wildfires, hurricanes and flood events. The following is an example event definition:
 
 ```json
 {
@@ -107,9 +101,9 @@ Input to participant systems include:
     "description": "The Lilac Fire was a fire that burned in northern San Diego County, California, United States, and the second-costliest one one of multiple of multiple wildfires that erupted in Southern California in December 2017."
 }
 ```
-<p style="text-align:center">Fig 1. Example Event Definition for the 2017 Lilac Fire</p>
+<p style="text-align:center">Fig 2. Example Event Definition for the 2017 Lilac Fire</p>
 
-- __User Profiles__: The itemised list of general and queries representing the user’s information needs. The union of these queries should be used to create a directed summary containing only matching information. An example of such queries is as follows:
+- __User Profiles__: The itemised list of general and event-type-specific queries representing a responder’s information needs. These queries provide a method for filtering disaster-related content to only ICS-related facts. We also include TREC-IS category mappings for each query. Example queries include:
 
 ```json
 [{
@@ -146,7 +140,7 @@ Input to participant systems include:
 ...
 ]
 ```
-<p style="text-align:center">Fig 2. Example Query Definition</p>
+<p style="text-align:center">Fig 3. Example Query Definition</p>
 
 - __Summary Requests__: Each request lists the event ID, date to summarise, and the start and end timestamps bounding the requested summary. A multi-day disaster will have multiple such summary requests:
 
@@ -167,9 +161,9 @@ Input to participant systems include:
   "endUnixTimestamp": 1512777599
 }]
 ```
-<p style="text-align:center">Fig 3. Example Summary Requests</p>
+<p style="text-align:center">Fig 4. Example Summary Requests</p>
 
-- __Content Streams__: A set of content streams from online sources, containing itemised text snippets (e.g., sentences) related to the event (though a specific snippet may not be a fact relevant to the disaster’s user profile). Each item has an event, item identifier, source, timestamp and a piece of text. These items contain the content that your system should use to produce your summary, and the union of these snippets should reproduce the original content stream from Twitter, Reddit, etc.
+- __Content Streams__: A set of content snippets from online streams. Each snippet is approximately a sentence in length and may not be relevant to the event--i.e., __content streams are noisy__. Each snippet has an associated event ID, stream identifier (CrisisFACTS-*Event ID*-*Stream Name*-*Stream ID*-*Snippet*), source, timestamp and a piece of text. Your summary should be built from these items.
 
 ```json
 [{
@@ -194,15 +188,15 @@ Input to participant systems include:
   "sourceType": "Twitter"
 }]
 ```
-<p style="text-align:center">Fig 4. Three Event Snippets for Event CrisisFACTS-001</p>
+<p style="text-align:center">Fig 5. Three Event Snippets for Event CrisisFACTS-001</p>
 
 ### System Output {#output}
 
-Your system should produce one summary for each request using only the content provided for that event and only between the starting and ending timestamps. 
+Your system should produce one summary for each *event-day* request using the content provided for that *event-day* and posted between the *event-day*  starting and ending timestamps. 
 
-This task differs from traditional summarization in that you should not simply produce a block of text of a set length. Instead, this track’s “summaries” are comprised of the facts describing the target disaster’s evolution. As such, your summaries consist of an itemised list of ‘facts’ that match one or more of the user information needs. 
+This task differs from traditional summarization in that you should not simply produce a block of text of a set length. Instead, this track’s daily "summaries" contain sets of facts describing the target disaster’s evolution. Your summaries should contain ‘facts’ that match one or more of the queries outlined in __User Profiles__. 
 
-We will use these top-k "most important" facts from a given event-day pair as the summary for that event's day.
+For evaluation, CrisisFACTS organizers will use the top-k "most important" facts from a given *event-day* pair as the summary for that event-day.
 
 Each fact should contain the following:
 
@@ -240,7 +234,7 @@ Examples of system output are as follows:
 ...
 ```
 
-Fig 5. Example System Output with Abstractive Facts. The `streamID` field is empty as this fact may not appear in the dataset verbatim. It is, however, supported by one Twitter message.
+Fig 6. Example System Output with Abstractive Facts. The `streamID` field is empty as this fact may not appear in the dataset verbatim. It is, however, supported by one Twitter message.
 {: style="text-align:center"}
 
 #### Example Extractive Output
@@ -259,7 +253,7 @@ Fig 5. Example System Output with Abstractive Facts. The `streamID` field is emp
 }
 ...
 ```
-Fig 6. Example System Output with Extractive Facts. The `streamID` field is populated with the Twitter document from which this text was taken.
+Fig 7. Example System Output with Extractive Facts. The `streamID` field is populated with the Twitter document from which this text was taken.
 {: style="text-align:center"}
 
 ### Other Output Details
@@ -296,7 +290,9 @@ CrisisFACTS has transitioned to the ir_datasets infrastructure for making data a
 
 ## Disaster Events {#events}
 
-We provide these data streams to participants to use as the source of content for inclusion into their summaries. The statistics for each of the eight 2022 events are listed below:
+### 2022 Training Events
+
+The eight events from 2022 are listed below. Gold-standard fact-lists from these events are available <a href="https://github.com/crisisfacts/utilities/blob/main/03-Evaluation/01-AutoEvaluation/CrisisFACTs-2022.facts.json">here</a>.
 
 | eventID         | Title                     | Type      |  Tweets | Reddit | News  | Facebook |
 | --------------- | ------------------------- | --------- | ------:| ------:| -----:| --------:|
@@ -308,6 +304,22 @@ We provide these data streams to participants to use as the source of content fo
 | CrisisFACTS-006 | Saddleridge Wildfire 2019 | Wildfire  |  31,969  | 244    | 2,267  | 3,869     |
 | CrisisFACTS-007 | Hurricane Laura 2020      | Hurricane |  36,120  | 10,035  | 6,406  | 9,048     |
 | CrisisFACTS-008 | Hurricane Sally 2020      | Hurricane  | 40,695  | 11,825  | 15,112 | 48,492    |
+
+
+### 2023 New Events
+
+| eventID         | Title                         | Type      |  Tweets | Reddit | News  | Facebook |
+| --------------- | ----------------------------- | --------- | ------:| ------:| -----:| --------:|
+| CrisisFACTS-009 | Beirut Explosion, 2020        | Accident  |  94,892  | 3,257   | 1,163  | 368,866     |
+| CrisisFACTS-010 | Houston Explosion, 2020       | Accident  |  58,370  | 5,704    | 2,175  | 6,281     |
+| CrisisFACTS-011 | Rutherford TN Floods, 2020    | Floods    |  11,019  | 475    | 268  | 9,116     |
+| CrisisFACTS-012 | TN Derecho, 2020              | Storm/Flood|  49,247  | 1,496 | 15,425 | 13,521   |
+| CrisisFACTS-013 | Edenville Dam Fail, 2020      | Accident  |  16,527  | 2,339   | 961  | 8,358     |
+| CrisisFACTS-014 | Hurricane Dorian, 2019        | Hurricane |  86,915  | 91,173   | 7,507  | 370,644     |
+| CrisisFACTS-015 | Kincade Wildfire, 2019        | Wildfire  |  91,548  | 10,174  | 339  | 35,011     |
+| CrisisFACTS-016 | Easter Tornado Outbreak, 2020 | Tornadoes | 91,812  | 5,070  | 750 | 34,343    |
+| CrisisFACTS-017 | Tornado Outbreak, 2020 Apr    | Tornadoes | 99,575  | 1,233  | 217 | 19,878    |
+| CrisisFACTS-018 | Tornado Outbreak, 2020 March  | Tornadoes | 95,221  | 16,911  | 641 | 87,242    |
 
 
 
@@ -326,7 +338,7 @@ Each run submission must indicate whether the run is manual or automatic. An aut
 
 ### Manual Runs
 
-Results on manual runs will be specifically identified when results are reported. A manual run is any run in which a person manually changes, summarises, or re-ranks queries, the system, or the system’s lists of facts. Simple bug fixes that address only format handling do not result in manual runs, but the changes should be described.
+Results on manual runs will be specifically identified when results are reported. A manual run is any run in which a person manually changes, summarises, or re-ranks queries, the system, or the system's lists of facts. Simple bug fixes that address only format handling do not result in manual runs, but the changes should be described.
 
 ### Submission Format
 
@@ -339,33 +351,29 @@ Example submissions are available in [Output Examples](#output-examples).
 
 ## Evaluation
 
-Submitted systems will be evaluated using two sets of approaches for this first year. In both approaches, participant systems’ lists of facts will be truncated to a private k value based on NIST assessors’ assessments.
+As in 2022, participant runs will be evaluated on two approaches. In both approaches, participant systems’ lists of facts will be truncated to a private k value based on NIST assessors’ results.
 
-### Metric Set 1 – Standard Summarization Metrics Against Extant Summaries
+### Metric Set 1 – ROUGE-based Summarization Against Daily Summaries
 
-- First, the top-k facts for each system’s event-day pair will be aggregated into a “summary” of that day’s new developments. Then, this summary will be compared against extant summaries using standard summarization metrics (e.g., Rouge-1, Rouge-2, and/or Rouge-L).
-- These extant summaries may include:
+- Top facts for each event-day pair will be aggregated into a "summary" of that day’s developments as a single document. This summary will be compared against extant summaries via ROUGE-x, [BERTScore](https://arxiv.org/abs/1904.09675), and similar.
+- Gold-standard summaries include:
     - NIST-based assessments of these events and related summaries
-    - Summaries extracted from the ICS209 reports from FEMA, which are available for each disaster event
-    - Wikipedia articles summarising the events
+    - Summaries extracted from the ICS209 reports from FEMA, when available
 
 
-### Metric Set 2 – Matching Facts Between Participant System and Manual Assessments
+### Metric Set 2 – Individual Fact-Matching Between Runs and Manual Fact Lists
 
-- For this metric set, we first manually construct a map for matching a system’s submitted facts for a given event-day pair to the NIST-assessor-developed set of facts for that event-day.
+- First, NIST assessors will construct a set of facts for each event-day pair from a pooled set of facts from all participant runs.
+- After constructing this fact list, assessors will match output from participant runs to each of these facts to assess __comprehensiveness__ and __redundancy ratio__, which act as proxies for recall and precision respectively.
 - For a given event-day pair, we therefore have:
     - A set of “gold standard” facts $S$ produced by NIST assessors
-    - A set of submitted facts $n \in N$ from a system 
-    - A fact-matching function $M(N, S)$ that measures the overlap between submitted facts and the gold-standard fact set. This fact-matching function comes in two forms:
-        - Graded matching:  $\sum_{s \in S}MaxSim(s,N)$
-            - $MaxSim(x, Y)$ measures the maximum similarity in the range $[0, 1]$ between fact $x$ and each fact in $y \in Y$.
-        - Binary matching: $\sum_{s \in S} BinaryMatch(s, N)$
-            - $BinaryMatch(s, N)$ returns 1 iff fact $s$ is in set of facts $N$
-    - Using this fact-matching function, we define __comprehensiveness__ (essentially a recall-oriented metric):
-        - $C(N, S) = \frac{M(N, S)}{\|S\|}$
-    - We likewise define a __verbosity__ metric as the number of submitted facts that match a gold-standard fact (i.e., precision):
-        - $V(N, S) = \frac{M(S, N)}{\|N\|}$
-    - For each disaster event, we calculate the average __comprehensiveness__ and __verbosity__ scores over all days in the event where $S$ contains facts.
+    - A set of submitted facts $f \in F$ from a participant run
+    - A fact-matching function $M(F, S)$ that measures the overlap between submitted facts $F$ and the gold-standard fact set $S$. 
+    - Using this fact-matching function, we define __comprehensiveness__ (a recall-oriented metric):
+        - $C(F, S) = \frac{M(F, S)}{\|S\|}$
+    - We likewise define __redundancy__ as the number of submitted facts that match a gold-standard fact (i.e., precision):
+        - $R(F, S) = \frac{M(F, S)}{\|F\|}$
+    - For each disaster event, we calculate the average __comprehensiveness__ and __redundancy__ scores over all days in the event where $S$ contains facts.
 
 
 -------
@@ -374,12 +382,12 @@ Submitted systems will be evaluated using two sets of approaches for this first 
 
 | Milestone | Date |
 |-----------------------|---------------|
-| Guidelines released | 17 June 2022 |
-| Submissions Due | 26 September 2022 |
-| NIST-Assessor Evaluation | 29 Sept - 27 Oct 2022| 
-| Scores returned to participants | 28 October 2022| 
-| TREC Notebook Drafts Due | 7 November 2022 (Tentative)| 
-| TREC Conference | 14 November 2022| 
+| Guidelines released | 10 May 2023 |
+| Submissions Due | 1 September 2023 |
+| NIST-Assessor Evaluation | 5-22 September 2023| 
+| Scores returned to participants | 29 September 2022| 
+| TREC Notebook Drafts Due | 7 November 2023 (Tentative)| 
+| TREC Conference | 15-17 November 2023 (Tentative)| 
 
 
 ## Organizers
