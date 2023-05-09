@@ -398,7 +398,27 @@ As in 2022, participant runs will be evaluated on two approaches. In both approa
 [Cody Buntain](http://cody.bunta.in) <br/> [@cbuntain](http://twitter.com/codybuntain) <br/> he/him <br/> College of Information Studies, University of Maryland, College Park.
 {: .align-left}
 
+![image-left](/assets/img/horne.jpeg){: .align-left .avatar} 
+
+[Benjamin Horne](https://benjamindhorne.github.io) <br/> [@benjamindhorne](https://kolektiva.social/@benjamindhorne) <br/> he/him <br/> University of Tennessee–Knoxville.
+{: .align-left}
+
+![image-left](/assets/img/hughes.jpg){: .align-left .avatar} 
+
+[Amanda Hughes](http://amandaleehughes.com) <br/> [@PIOResearcher](http://twitter.com/PIOResearcher) <br/> she/her <br/> Brigham Young University.
+{: .align-left}
+
+![image-left](/assets/img/imran.jpg){: .align-left .avatar} 
+
+[Muhammad Imran](https://mimran.me) <br/> [@mimran15](http://twitter.com/mimran15) <br/> he/him <br/> Qatar Computing Research Institute.
+{: .align-left}
+
 ![image-left](/assets/img/mccreadie.jpg){: .align-left .avatar} 
 
 [Richard McCreadie](http://dcs.gla.ac.uk/~richardm/Home/) <br/> [@richardm_](http://twitter.com/richardm_) <br/> he/him <br/> School of Computing Science, University of Glasgow.
+{: .align-left}
+
+![image-left](/assets/img/purohit.jpg){: .align-left .avatar} 
+
+[Hemant Purohit](https://mason.gmu.edu/~hpurohit/) <br/> [@hemant_pt](http://twitter.com/hemant_pt) <br/> he/him <br/> George Mason University.
 {: .align-left}
