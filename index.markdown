@@ -13,6 +13,7 @@ layout: default
 
 ## Announcements
 {: .mailing-list-title}
+- __2023-05-19__: _CrisisFACTS 2023 datasets have been released!_ We have released the datasets for 2023 now! To download the data, you can follow the baseline script provided on our GitHub [here](https://github.com/crisisfacts/utilities/blob/main/01-Baselines/00-SimplePyTerrierBaseline.ipynb)</a>.
 - __2023-05-10__: _CrisisFACTS task guidelines have been released!_ You can check out the guidelines on this page, ask questions on <a href='https://groups.google.com/g/trec-is'>our mailing list</a>, or join the `#crisis-facts-2023` channel on the <a href="https://trectalk.slack.com/">TREC Slack channel</a>.
 - __2023-03-10__: _CrisisFACTS 2022 overview paper accepted to ISCRAM 2023!_ The overview paper for CrisisFACTS 2022 has been accepted for [ISCRAM 2023](https://www.unomaha.edu/college-of-information-science-and-technology/iscram2023/index.php). A pre-print of this paper is available [here](/assets/pdf/crisisfacts2022.iscram2023.pdf)
 - __2023-01-06__: _CrisisFACTS 2022 Facts and automatic evaluation are available!_ You can find the gold-standard facts from CrisisFACTS 2022 <a href="https://github.com/crisisfacts/utilities/blob/main/03-Evaluation/01-AutoEvaluation/CrisisFACTs-2022.facts.json">here</a> and the 2022 automatic evaluation in <a href="https://github.com/crisisfacts/utilities/tree/main/03-Evaluation/01-AutoEvaluation">GitHub</a>.
